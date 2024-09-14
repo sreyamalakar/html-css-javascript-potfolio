@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+
+<body>
+
+
+    <div class="sidebar">
+        <div>
+            <div style="float:left;width:50%;position: relative;text-align: center;">
+                <ul class="sideList">
+                    <li>New Releses
+
+                    </li>
+                    <li>Best Seller</li>
+                    <li>TV</li>
+                    <li>Mobile, Computer </li>
+                    <li>Today's Deal</li>
+                </ul>
+            </div>
+            <div class="blackline"
+                style="display: flex;align-items:flex-end;flex-direction: column;justify-content: space-between;height:0.6rem;float: left;width:50%;
+                position:relative;transform: translateY(200%);">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <nav class="navbar2">
+        <div class="navbar">
+            <ul class="menuitems container">
+                <li><span class="logo">Electronics</span>.in</li>
+                <li class="menuitem" style="font-size: 1.4rem;color:rgb(193, 188, 188);">Delivering in kolkata 700028
+                    <span class="bold-text"><br>Update Location</span>
+                </li>
+                <li class="menuitem2 menuitem">
+
+                    <select class="select-item menuitem2-padding">
+                        <option value="all" selected>All</option>
+                        <option value="fastion">Aamzon fastion</option>
+                        <option value="app">Amazon app</option>
+                        <option value="game">Amazon game</option>
+                    </select>
+
+
+                    <input type="text" placeholder="Search in amazon" class="menuitem2-padding">
+                    <i class="fa-solid fa-magnifying-glass nav-icon menuitem2-padding" style="color:black;"></i>
+
+
+
+                </li>
+                <li class="menuitem" style="font-weight: bolder;font-size: 2rem;">EN</li>
+                <li class="menuitem">Hello Sign in <span class="bold-text"><br>Account & List</span></li>
+                <li class="menuitem">Return &<span class="bold-text"><br>orders</span></li>
+                <li class="menuitem "><br><span class="bold-text">Carts</span></li>
+            </ul>
+        </div>
+
+    </nav>
+    <header class="header">
+
+        <div class="header1 container">
+            <div class="header3">
+                <input type="checkbox" name="" id="menu-toggle">
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+
+                <div class="item">All</div>
+
+
+            </div>
+
+
+            <ul class="header-item">
+                <li class="header-items"><a href="#slide-show" style="color:white;text-decoration: none;">Today's
+                        deal</a>
+                </li>
+                <li class="header-items"><a href="#about-us" style="color:white;text-decoration: none;">About Us</a>
+                </li>
+                <li class="header-items"><a href="#mobile1" style="color:white;text-decoration: none;">Mobile</a></li>
+                <li class="header-items"><a href="#freee" style="color:white;text-decoration: none;">Freeze</a></li>
+                <li class="header-items"><a href="#footer1" style="color:white;text-decoration: none;">Contact Us</a>
+                </li>
+
+            </ul>
+
+            <div class="header2">
+                <h3>Great Freedom festival</h3>
+                <h1>Coming Soon</h1>
+
+            </div>
+
+        </div>
+    </header>
+    <section class="container about" id="about-us">
+        <h2>About Us</h2>
+        <p>
+            Welcome to [Your Shop Name], your trusted destination for cutting-edge electronics and exceptional customer
+            service. Established in [Year], our mission is to provide a diverse selection of high-quality electronic
+            products that cater to both everyday needs and advanced tech enthusiasts. From the latest smartphones and
+            laptops to innovative home appliances and entertainment systems, we are committed to offering top brands at
+            competitive prices.
+        </p>
+    </section>
+    <div class="slideshow-container" id="slide-show">
+
+        <div class="mySlides fade">
+            <img src="./assets/image-1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./assets/image-2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./assets/img-3.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+    <section class="freeze-section container" id="freee" style="text-transform: uppercase; margin-top: 70px;">
+        <h2>All type of Freezes</h2>
+        <div class="freeze">
+
+            <div class="freeze1"><img src="./assets/freeze1.webp" alt="" class="fre">
+                <h3>Price Rs:20000</h3>
+                <div class="mobile">
+                    GET 20% OFF
+                </div>
+            </div>
+            <div class="freeze1"><img src="./assets/freeze2.webp" alt="" class="fre">
+                <h3>Price Rs:30000</h3>
+
+                <div class="mobile">
+                    GET 20% OFF
+                </div>
+            </div>
+            <div class="freeze1"><img src="./assets/freeze3.jpg" alt="" class="fre">
+                <h3>Price Rs:30000</h3>
+                <div class="mobile">
+                    GET 20% OFF
+                </div>
+            </div>
+            <div class="freeze1"><img src="./assets/freeze4.jpg" alt="" class="fre">
+                <h3>Price Rs:40000</h3>
+                <div class="mobile">
+                    GET 20% OFF
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="freeze-section container" id="mobile1" style="text-transform: uppercase;">
+        <h2>All type of mobiles</h2>
+        <div class="freeze">
+
+            <div class="freeze1"><img src="./assets/mobile-1.png" alt="" class="fre">
+                <h3>Price Rs:20000</h3>
+                <div class="mobile">
+                    GET 10% OFF
+                </div>
+            </div>
+            <div class="freeze1"><img src="./assets/mobile-2.webp" alt="" class="fre">
+                <h3>Price Rs:30000</h3>
+                <div class="mobile">
+                    GET 10% OFF
+                </div>
+            </div>
+            <div class="freeze1"><img src="./assets/mobile-3.jpg" alt="" class="fre">
+                <h3>Price Rs:30000</h3>
+                <div class="mobile">
+                    GET 10% OFF
+                </div>
+            </div>
+            <div class="freeze1"><img src="./assets/mobile-4.jpg" alt="" class="fre">
+                <h3>Price Rs:40000</h3>
+                <div class="mobile">
+                    GET 10% OFF
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer1">
+        <div class="footer">
+            <div style="background-color: rgb(107, 103, 123);">
+                <p>Back to top</p>
+            </div>
+            <div class="footer3"
+                style="background-color: rgba(21, 21, 30, 0.882); padding-bottom: 20px; margin-bottom: 0;">
+                <div class="footer-list">
+                    <ul class="footer2">
+                        <li>Get to Know Us</li>
+                        <li>About us</li>
+                        <li>career</li>
+                        <li>Press release</li>
+                        <li>About Science</li>
+
+                    </ul>
+                    <ul class="footer2">
+                        <li>Connect with us</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                    <ul class="footer2">
+                        <li>Make Money with Us</li>
+                        <li>Sell on Amazon</li>
+                        <li>Sell under Amazon Accelerator</li>
+                        <li>lirotect and Build Your Brand</li>
+                        <li>Amazon Global Selling</li>
+                        <li>Sulily to Amazon</li>
+                        <li>Become an Affiliate</li>
+                        <li>Fulfilment by Amazon</li>
+                        <li>Advertise Your liroducts</li>
+                        <li>Amazon liay on Merchants</li>
+                    </ul>
+                    <ul class="footer2">
+                        <li>Let Us Helli You</li>
+                        <li>Your Account</li>
+                        <li>Returns Centre</li>
+                        <li>Recalls and liroduct Safety Alerts</li>
+                        <li>100% liurchase lirotection</li>
+                        <li>Amazon Ali Download</li>
+                        <li>Helli</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</head>
+
+</html>
